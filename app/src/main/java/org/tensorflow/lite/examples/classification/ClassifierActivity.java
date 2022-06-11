@@ -18,11 +18,15 @@ package org.tensorflow.lite.examples.classification;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.ImageReader.OnImageAvailableListener;
+import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Size;
 import android.util.TypedValue;
+import android.widget.ProgressBar;
+
 import java.io.IOException;
 import java.util.List;
 import org.tensorflow.lite.examples.classification.env.BorderedText;
@@ -47,6 +51,12 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
   @Override
   protected int getLayoutId() {
     return R.layout.tfe_ic_camera_connection_fragment;
+  }
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
   }
 
   @Override

@@ -56,7 +56,8 @@
             android:layout_height="300dp"
             android:layout_alignParentBottom="true"
             android:background="@color/tfe_color_primary_dark"
-            android:padding="16dp"
+            android:paddingTop="16dp"
+
             android:orientation="vertical"
             android:visibility="visible">
 
@@ -81,7 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginTop="32dp"
+                android:layout_margin="32dp"
                 android:text="Pointer la caméra et cadrer l'image de l'article à rechercher dans la zone de recherche"
                 android:textSize="14sp"
                 android:textColor="@color/white"

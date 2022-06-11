@@ -46,6 +46,8 @@ public class InformationActivity extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("La Boutique Officielle");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         ((TextView)findViewById(R.id.productTV)).setText(
                 getIntent().getStringExtra(CONTENT));
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
