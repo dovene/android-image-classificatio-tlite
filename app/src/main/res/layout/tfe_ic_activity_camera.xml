@@ -95,7 +95,7 @@
 
 
     <include
-        android:visibility="gone"
+        android:visibility="visible"
         android:id="@+id/bottom_sheet_layout"
         layout="@layout/tfe_ic_layout_bottom_sheet" />
 
